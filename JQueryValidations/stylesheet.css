@@ -1,0 +1,212 @@
+:-moz-any-link :focus {
+	outline: none;
+}
+
+:focus {
+	-moz-outline-style: none;
+	outline: nonr: #000000;
+}
+
+/* sX.0 - General Colors */
+div.buttonSubmit input,div.buttonSubmit span {
+	height: 36px;
+	position: relative;
+	background-image: url(button-submit.gif);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	float: left;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0px 15px 2px 15px;
+	margin: 20px 0px 20px 0px;
+	border: 0px;
+	cursor: pointer;
+	z-index: 5;
+}
+
+div.buttonSubmit input {
+	width: auto;
+}
+
+div.buttonSubmit span {
+	width: 4px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-position: left -36px;
+	padding: 0px 0px 0px 0px;
+	z-index: 10;
+}
+
+body.safari div.buttonSubmit span {
+	display: none
+}
+
+div.buttonSubmitHover input {
+	background-position: right -72px;
+}
+
+div.buttonSubmitHover span {
+	background-position: left -108px;
+}
+
+label.error {
+	display: block;
+	color: red;
+	font-style: italic;
+	font-weight: normal;
+}
+
+input.error {
+	border: 2px solid red;
+}
+
+p.demoBlock {
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom: 10px;
+}
+
+
+form table td {
+	padding: 5px;
+}
+
+form table input {
+	width: 200px;
+	padding: 3px;
+	margin: 0px;
+}
+
+textarea {
+	width: 400px
+}
+
+td.label {
+	width: 150px;
+}
+
+
+td.field input.error, td.field select.error, tr.errorRow td.field input,tr.errorRow td.field select {
+	border: 2px solid red;
+	background-color: #FFFFD5;
+	margin: 0px;
+	color: red;
+}
+
+tr td.field div.formError {
+	display: none;
+	color: #FF0000;
+}
+
+tr.errorRow td.field div.formError {
+	display: block;
+	font-weight: normal;
+}
+
+div.error {
+	color: red;
+}
+
+div.error a {
+	color: #336699;
+	font-size: 12px;
+	text-decoration: underline;
+	font: bold 17px tahoma, geneva;
+	color: #333333;
+	height: 55px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.offerbox h4 {
+	height: 100px;
+	font: normal 13px tahoma, geneva;
+	margin: 0px;
+}
+
+div.buttonSubmit span {
+	width: 4px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-position: left -36px;
+	padding: 0px 0px 0px 0px;
+	z-index: 10;
+}
+
+body.safari div.buttonSubmit span {
+	display: none
+}
+
+div.buttonSubmitHover input {
+	background-position: right -72px;
+}
+
+div.buttonSubmitHover span {
+	background-position: left -108px;
+}
+
+label.error {
+	display: block;
+	color: red;
+	font-style: italic;
+	font-weight: normal;
+}
+
+input.error {
+	border: 2px solid red;
+}
+
+p.demoBlock {
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom: 10px;
+}
+
+
+form table td {
+	padding: 5px;
+}
+
+form table input {
+	width: 200px;
+	padding: 3px;
+	margin: 0px;
+}
+
+textarea {
+	width: 400px
+}
+
+td.label {
+	width: 150px;
+}
+
+
+td.field input.error, td.field select.error, tr.errorRow td.field input,tr.errorRow td.field select {
+	border: 2px solid red;
+	background-color: #FFFFD5;
+	margin: 0px;
+	color: red;
+}
+
+tr td.field div.formError {
+	display: none;
+	color: #FF0000;
+}
+
+tr.errorRow td.field div.formError {
+	display: block;
+	font-weight: normal;
+}
+
+div.error {
+	color: red;
+}
+
+div.error a {
+	color: #336699;
+	font-size: 12px;
+	text-decoration: underline
+}
+CCCCCC;
+}
